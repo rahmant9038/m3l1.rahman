@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+
+
+body{
+  text-align: center;
+}
+
+p{color: white; font-family: cursive; font-size: 150%;}
+
+aside{
+  float: right;
+  margin-right: 75px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+border-style: solid;
+  border-radius: 10%;
+  font-size: 35px;
+}
+
+main{
+  float:left;
+  margin-left: 75px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 75px;
+  border-style: solid;
+  border-radius: 10%;
+ 
+}
+
+header {
+  font-size: 50px;
+  font-family: cursive;
+  color: white;
+ 
+}
+
+h1{
+
+  font-size: 75px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+ul{
+  margin-top: -70px;
+  padding-bottom: 10px;
+  
+}
+
+#newDIV {
+  width: 1455px;
+  height: 800px;
+  margin-left: -20px;
+  margin-top: -15px;
+  
+  animation: move 1s infinite;
+  border-radius: 100px;
+}
+
+
+
+@keyframes move {
+  from {background-color: #00ccff;}
+  to {background-color: #74c365;}
+}
+
